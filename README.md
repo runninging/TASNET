@@ -2,7 +2,6 @@
 Two models are provided here, one with SDR = 11.7 and the other with SDR = 13.6
 ## Model with SDR = 11.7
 You can find the oringnal paper [here](https://arxiv.org/abs/1809.07454).
-## Usage:
 ### Function
 - dataset.py: read the data into the model 
 - Tasnet_model.py：the forword network
