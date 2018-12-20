@@ -12,15 +12,7 @@ You can find the oringnal paper [here](https://arxiv.org/abs/1809.07454).
 - train.yaml: all the parameters used in the model
 - test.py：separate the mixed audio and calculate SDR
 ### Training stage：
-- 1.from the beginning: remove the line with "trainer.rerun" in Tasnet_train.py, use "trainer.run" instead
-- 2.from a trained model: remove the line with "trainer.run" in Tasnet_train.py，use "trainer.rerun" instead, and change the "model_path" in train.yaml/temp
-- command：python Tasnet_train.py
-### Testing:
-- change the parameters under train.yaml/test
-- command：python test.py
-### model：
-- the trained model
-### loss：
-- record the process of training
+- from the beginning: remove the line with "trainer.rerun" in Tasnet_train.py, use "trainer.run" instead
+- from a trained model: remove the line with "trainer.run" in Tasnet_train.py，use "trainer.rerun" instead, and change the "model_path" in train.yaml/temp
 ## Model with SDR = 13.6
 You can find the oringnal paper [here](https://www.isca-speech.org/archive/Interspeech_2018/abstracts/2290.html).
