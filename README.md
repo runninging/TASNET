@@ -1,6 +1,7 @@
 # TASNET: Time-domain Audio Separation Network
-you can find the oringnal paper [here](https://arxiv.org/abs/1809.07454)
-
+Two models are provided here, one with SDR = 11.7 and the other with SDR = 13.6
+## Model with SDR = 11.7
+You can find the oringnal paper [here](https://arxiv.org/abs/1809.07454).
 ## Usage:
 ### Function
 - dataset.py: read the data into the model 
@@ -21,3 +22,5 @@ you can find the oringnal paper [here](https://arxiv.org/abs/1809.07454)
 - the trained model
 ### loss：
 - record the process of training
+## Model with SDR = 13.6
+You can find the oringnal paper [here](https://www.isca-speech.org/archive/Interspeech_2018/abstracts/2290.html).
