@@ -16,6 +16,6 @@ You can find the oringnal paper [here](https://arxiv.org/abs/1809.07454). The te
 ## Model with SDR = 13.6
 You can find the oringnal paper [here](https://www.isca-speech.org/archive/Interspeech_2018/abstracts/2290.html).
 ### Function
-- Tasnet_model_13.6.py: the model of SDR = 13.6 system
+- Tasnet_model_13.6.py: the forword network of SDR = 13.6 system
 
-The only diffierence between 11.7 and 13.6 system is the forward model, just replace the Tasnet_model.py with Tasnet_model_13.6.py and run.
+The only diffierence between 11.7 and 13.6 system is the forward network, just replace the Tasnet_model.py with Tasnet_model_13.6.py and run.
