@@ -15,3 +15,6 @@ You can find the oringnal paper [here](https://arxiv.org/abs/1809.07454). The te
 - from a trained model: remove the line with "trainer.run" in Tasnet_train.py，use "trainer.rerun" instead, and change the "model_path" in train.yaml/temp
 ## Model with SDR = 13.6
 You can find the oringnal paper [here](https://www.isca-speech.org/archive/Interspeech_2018/abstracts/2290.html).
+### Function
+- Tasnet_model_13.6.py: the model of SDR = 13.6 system
+The only diffierence between 11.7 and 13.6 system is the forward model, just replace the Tasnet_model.py with Tasnet_model_13.6.py and run.
